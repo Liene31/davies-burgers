@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  font-size: 1.13rem;
+}
+
+/* Header */
+
+img {
+  width: 200px;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+nav li {
+  padding: 5px 0;
+  font-weight: 100;
+  letter-spacing: 2px;
+  font-size: 1rem;
+}
+
+/* Hero */
+
+.hero {
+  background-image: url(https://content.codecademy.com/courses/web-101/unit-6/htmlcss1-img_burgerphoto.jpeg);
+  height: 320px;
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  background-color: #05a8aa;
+  margin: 0 auto;
+  font-size: 2.5rem;
+  width: 50%;
+  padding: 10px;
+}
+
+/* Section */
+
+p {
+  margin: 0;
+  font-weight: 100;
+  line-height: 34px;
+  padding: 25px 25px 0;
+  color: #333333;
+}
+
+button {
+  display: block;
+  width: 200px;
+  margin: 45px auto;
+  padding: 20px;
+  border: 1px solid #05a8aa;
+  background-color: #ffffff;
+  color: #05a8aa;
+  font-weight: 700;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #05a8aa;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+footer {
+  margin: 0 auto 45px;
+}
+
+footer li {
+  background-color: #05a8aa;
+  padding: 7px 50px;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: center;
+}
+
+.flex li {
+  color: #ffffff;
+}
+
+span {
+  display: block;
+  font-weight: 100;
+  font-size: 1.3rem;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
